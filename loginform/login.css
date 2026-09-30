@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainbox {
+  height: 400px;
+  width: 600px;
+  border: 2px solid black;
+  
+  
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.part1 {
+  width: 50%;
+  height: 100%;
+ 
+}
+
+.part1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.part2 {
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+}
+
+.part2 form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+.part2 form p {
+  font-size: 15px;
+  padding: 14px;
+  padding-left: 28px;
+}
+
+.h1 {
+  font-weight: bold;
+}
+.p {
+  font-size: 0.5rem;
+  margin-bottom: 5px;
+}
+input[type="email"],
+input[type="password"] {
+  width: 239px;
+  height: 34px;
+  padding: 9px;
+  font-size: 13px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.remember input {
+  width: 16px;
+  height: 16px;
+}
+
+.remember label {
+  font-size: 14px;
+}
+
+.login-btn {
+  width: 239px;
+  height: 35px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background-color: #0d5dcc;
+}
